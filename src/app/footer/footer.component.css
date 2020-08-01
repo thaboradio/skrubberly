@@ -1,0 +1,14 @@
+.footer {
+    height: 10vh;
+    background: linear-gradient(#F17122, #EF5A23);
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-weight: bolder;
+    width: 100%;
+}

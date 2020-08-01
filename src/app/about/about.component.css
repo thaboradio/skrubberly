@@ -1,0 +1,49 @@
+.card-white{
+    margin: 15% auto;
+    width: 60%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+.card-title {
+    font-weight: bolder;
+}
+.card-image {
+width: 200px;
+height: 100px;
+}
+
+.get-in-touch{
+    padding: 15px 20px;
+    background: linear-gradient(#F17122, #EF5A23);
+
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    border-radius: 4px;
+    
+}
+
+.card-footer{
+    margin: 15% auto;
+}
+@media screen and (min-width: 768px){
+    .card-white {
+        margin: 5% auto;
+        width: 80%;
+        box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+        background: #FFFFFF;
+        padding: 40px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .card-footer{
+        margin: 2% auto;
+    }
+    .get-in-touch {
+        display: block;
+    }
+}
