@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProductListComponent } from './product-list/product-list.component';
     NavComponent,
     FooterComponent,
     AboutComponent,
-    ProductListComponent
+    ProductListComponent,
+    HomeComponent
   ],
   imports: [
     BrowserAnimationsModule,

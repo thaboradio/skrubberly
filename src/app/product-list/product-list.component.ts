@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
+import { Console } from '@angular/core/src/console';
 
 function gridToggle() {
   $(() => {
@@ -27,5 +28,6 @@ export class ProductListComponent implements OnInit {
   ngOnInit() {
     gridToggle();
   }
+
 
 }
